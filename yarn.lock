@@ -948,7 +948,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dcloudio/types@*", "@dcloudio/types@^2.0.23":
+"@dcloudio/types@*", "@dcloudio/types@^2.0.16", "@dcloudio/types@^2.0.23":
   version "2.2.5"
   resolved "https://registry.nlark.com/@dcloudio/types/download/@dcloudio/types-2.2.5.tgz#93d9df330257de521bd22fee7237278b0aec7292"
   integrity sha1-k9nfMwJX3lIb0i/ucjcniwrscpI=
@@ -7219,6 +7219,13 @@ lru-cache@^6.0.0:
   integrity sha1-bW/mVw69lqr5D8rR2vo7JWbbOpQ=
   dependencies:
     yallist "^4.0.0"
+
+luch-request@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.nlark.com/luch-request/download/luch-request-3.0.6.tgz#5a2cf049cb8bf8157aa562f8e25b1ab95da42d9a"
+  integrity sha1-WizwScuL+BV6pWL44lsauV2kLZo=
+  dependencies:
+    "@dcloudio/types" "^2.0.16"
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
